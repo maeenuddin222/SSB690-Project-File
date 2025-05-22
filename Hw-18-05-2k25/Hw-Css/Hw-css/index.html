@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn Css</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        div.internel_css{
+            height: 600px; width: 100%; background-color: #003135; 
+            border-bottom: 1px solid;
+        }
+
+        div.internel_css > h1{
+            margin: 0px 0px 0px 20px; 
+            padding: 10px 0px 10px 0px ; 
+            color: white; font-size: 55px; 
+            font-family: sans-serif; 
+            text-shadow: 5px 5px 2px rgba(102, 34, 87, 0.466); 
+            display: inline-block;
+        }
+
+        div.internel_css > p{
+            height: auto; 
+            width: 80%; 
+            padding: 20px; 
+            color: #003135;   
+            background-color: white;  
+            margin: 30px 60px; 
+            font-family: Arial, Helvetica,sans-serif; 
+            line-height: 22px; letter-spacing: 1.5px;
+            box-shadow: 5px 5px 2px rgb(102, 34, 87);
+
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="#section1">Inline Css</a>
+        <a href="#section2">Internel Css</a>
+        <a href="#section3">Externel Css</a>
+    </nav>
+
+
+    <!-- এটি inline css section এই section এর ভিতরে html element এর মধ্যে css লেখা হয়েছে -->
+
+    <div class="item1" id="section1" style="height: 600px; width: 100%; background-color: #282a35; border-bottom: 1px solid white;">
+
+        <h1 style=" margin: 0px 0px 0px 20px; padding: 10px 0px 10px 0px ; color: white; font-size: 55px; font-family: sans-serif; text-shadow: 5px 5px 2px rgba(102, 34, 87, 0.466); display: inline-block;">HI, I am Inline Css </h1>
+        
+        <p style="height: auto; width: 80%; background-color: white; border: 2px solid white; margin: 30px 60px; padding: 20px; color: #1d0c4b; font-weight: bold; font-family: Arial, Helvetica, sans-serif; line-height: 22px; letter-spacing: 1.2px;   box-shadow: 5px 5px 2px rgb(102, 34, 87);">
+
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur totam, facere soluta quam debitis magnam veniam aliquam quidem vero aliquid placeat quia quae deleniti praesentium, ex perferendis! Optio animi dolorum esse fuga harum tempore dignissimos praesentium enim, sed nisi eligendi accusantium illum quae natus fugit, consequatur, et sapiente facere amet.
+            
+        </p>
+
+        <p style="height: auto; width: 80%; background-color: white; border: 2px solid white; margin: 30px 60px; padding: 20px; color: #1d0c4b; font-weight: bold; font-family: Arial, Helvetica, sans-serif; line-height: 22px; letter-spacing: 1.2px;   box-shadow: 5px 5px 2px rgb(102, 34, 87);">
+
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur totam, facere soluta quam debitis magnam veniam aliquam quidem vero aliquid placeat quia quae deleniti praesentium, ex perferendis! Optio animi dolorum esse fuga harum tempore dignissimos praesentium enim, sed nisi eligendi accusantium illum quae natus fugit, consequatur, et sapiente facere amet.
+            
+        </p>
+
+        <p style="height: auto; width: 80%; background-color: white; border: 2px solid white; margin: 30px 60px; padding: 20px; color: #1d0c4b; font-weight: bold; font-family: Arial, Helvetica, sans-serif; line-height: 22px; letter-spacing: 1.2px; box-shadow: 5px 5px 2px rgba(102, 34, 87, 0.466);">
+
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur totam, facere soluta quam debitis magnam veniam aliquam quidem vero aliquid placeat quia quae deleniti praesentium, ex perferendis! Optio animi dolorum esse fuga harum tempore dignissimos praesentium enim, sed nisi eligendi accusantium illum quae natus fugit, consequatur, et sapiente facere amet.
+            
+        </p>
+
+    </div>
+
+
+
+        <!-- এটি internel css section এই section এর css <head> section এর মধ্যে লেখা হয়েছে -->
+
+    <div class="internel_css" id="section2">
+
+        <h1>Hi, I am Internal Css</h1>
+        
+        <p>
+
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur totam, facere soluta quam debitis magnam veniam aliquam quidem vero aliquid placeat quia quae deleniti praesentium, ex perferendis! Optio animi dolorum esse fuga harum tempore dignissimos praesentium enim, sed nisi eligendi accusantium illum quae natus fugit, consequatur, et sapiente facere amet.
+            
+        </p>
+
+        <p>
+
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur totam, facere soluta quam debitis magnam veniam aliquam quidem vero aliquid placeat quia quae deleniti praesentium, ex perferendis! Optio animi dolorum esse fuga harum tempore dignissimos praesentium enim, sed nisi eligendi accusantium illum quae natus fugit, consequatur, et sapiente facere amet.
+            
+        </p>
+
+        <p>
+
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur totam, facere soluta quam debitis magnam veniam aliquam quidem vero aliquid placeat quia quae deleniti praesentium, ex perferendis! Optio animi dolorum esse fuga harum tempore dignissimos praesentium enim, sed nisi eligendi accusantium illum quae natus fugit, consequatur, et sapiente facere amet.
+            
+        </p>
+
+    </div>
+
+
+
+    <!-- এটি externel css section এই section এর css .css file এর মধ্যে লেখা হয়েছে -->
+
+    <div class="externel_Css" id="section3">
+        <h1>Hi, I am Externel Css</h1>
+        
+        <p>
+
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur totam, facere soluta quam debitis magnam veniam aliquam quidem vero aliquid placeat quia quae deleniti praesentium, ex perferendis! Optio animi dolorum esse fuga harum tempore dignissimos praesentium enim, sed nisi eligendi accusantium illum quae natus fugit, consequatur, et sapiente facere amet.
+            
+        </p>
+
+        <p>
+
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur totam, facere soluta quam debitis magnam veniam aliquam quidem vero aliquid placeat quia quae deleniti praesentium, ex perferendis! Optio animi dolorum esse fuga harum tempore dignissimos praesentium enim, sed nisi eligendi accusantium illum quae natus fugit, consequatur, et sapiente facere amet.
+            
+        </p>
+
+        <p>
+
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur totam, facere soluta quam debitis magnam veniam aliquam quidem vero aliquid placeat quia quae deleniti praesentium, ex perferendis! Optio animi dolorum esse fuga harum tempore dignissimos praesentium enim, sed nisi eligendi accusantium illum quae natus fugit, consequatur, et sapiente facere amet.
+            
+        </p>        
+    </div>
+
+</body>
+</html>
